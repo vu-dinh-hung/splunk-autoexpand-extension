@@ -1,2 +1,3 @@
-# splunk-autoexpand-extension
-A Chrome extension to autoexpand parsed events (e.g. JSON) in Splunk Cloud UI
+# splunk-autoexpand-json
+
+A Chrome extension to auto-expand JSON events in Splunk Cloud UI

@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Splunk Auto-expand JSON",
+  "description": "Auto-expand JSON events in Splunk.",
+  "version": "0.1",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.splunkcloud.com/*"
+      ],
+      "js": [
+        "content_script.js"
+      ]
+    }
+  ]
+}
